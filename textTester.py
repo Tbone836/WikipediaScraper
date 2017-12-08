@@ -20,10 +20,6 @@ for row in count_of_id:
     updating_row_id = int(row[0]) + 1
 
 
-
-account_sid = "AC991a83d110aecec48b7bce329d24bee5"
-auth_token = "dd17685659ab008ceb10879d466b3e98"
-
 client = Client(account_sid, auth_token)
 
 authentication_code_sent = client.messages.create(
