@@ -24,8 +24,8 @@ idvariable = 1
 link_id = 1
 keyword_id = 10
 
-while user_input != "":
-    user_input = str(raw_input("What would you like to search today? Insert here: "))
+
+user_input = str(raw_input("What would you like to search today? Insert here: "))
 
 
 user_input = user_input.split()
@@ -166,9 +166,8 @@ print final_links_returned
 
 '''
 To-do list:
-- Multiple input
-- Make webpage for it
 - Connect it to the loop which gets words from wikipedia
+- Make webpage for it
 - Make classes
 - Rank the Websites
 '''
