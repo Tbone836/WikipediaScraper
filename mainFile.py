@@ -69,8 +69,6 @@ def mainFunction():
             if word in stopWords:
                 titleArray.remove(word)
                 used_links.append(link)
-        #print to_go_link
-        #print link
         used_links.append(link)
         to_go_link.remove(link)
         print("used links")
